@@ -22,7 +22,7 @@ list(FILTER MODULE_SOURCES EXCLUDE REGEX "${PROJECT_SOURCE_DIR}.external.+")
 list(FILTER MODULE_INTERFACES EXCLUDE REGEX "${PROJECT_SOURCE_DIR}.external.+")
 
 set(DEX_BUILDER_BUILD_SHARED OFF CACHE INTERNAL "" FORCE)
-add_subdirectory(external/dex_builder)
+#add_subdirectory(external/dex_builder)
 
 option(LSPLANT_BUILD_SHARED "If ON, lsplant will also build shared library" ON)
 
